@@ -5,9 +5,12 @@ package basicfolder;
  */
 public class main {
 
-    public void pozdrav() {
-        System.out.println("Ahoj svet, ja som programator!");
+    public void hlavnaMetoda() {
+        pozdrav();
     }
 
+    private void pozdrav() {
+        System.out.println("Ahoj svet, ja som programator!");
+    }
 
 }
