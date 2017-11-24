@@ -26,10 +26,10 @@ public class main {
   
     private void pocitanie() {
         int sucet = 0;
-        for(int a = 1; a < 20; a++) {
+        for(int a = 1; a <= 20; a++) {
             sucet += a;
         }
-        System.out.print(sucet);
+        System.out.println("%n" + sucet);
     }
 
 }
