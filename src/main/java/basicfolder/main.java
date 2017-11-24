@@ -12,6 +12,7 @@ public class main {
     public void hlavnaMetoda() {
         pozdrav();
         pocitanie();
+        vypisDatumu();
     }
 
     private void pozdrav() {
@@ -21,7 +22,7 @@ public class main {
     private void vypisDatumu() {
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         Date date = new Date();
-        System.out.println(dateFormat.format(date));
+        System.out.println("%n" + dateFormat.format(date));
     }
   
     private void pocitanie() {
