@@ -11,6 +11,7 @@ public class main {
 
     public void hlavnaMetoda() {
         pozdrav();
+        pocitanie();
     }
 
     private void pozdrav() {
@@ -21,6 +22,14 @@ public class main {
         DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
         Date date = new Date();
         System.out.println(dateFormat.format(date));
+    }
+  
+    private void pocitanie() {
+        int sucet = 0;
+        for(int a = 1; a < 20; a++) {
+            sucet += a;
+        }
+        System.out.print(sucet);
     }
 
 }
