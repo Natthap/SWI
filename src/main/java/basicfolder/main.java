@@ -6,7 +6,7 @@ package basicfolder;
 public class main {
 
     public void pozdrav() {
-        System.out.println("Ahoj, svet ja som programator!");
+        System.out.println("Ahoj svet, ja som programator!");
     }
 
 
