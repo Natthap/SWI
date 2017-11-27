@@ -24,7 +24,7 @@ public class main {
         Date date = new Date();
         System.out.println("%n" + dateFormat.format(date));
     }
-  
+  //random uprava
     private void pocitanie() {
         int sucet = 0;
         for(int a = 1; a <= 20; a++) {
